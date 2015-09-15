@@ -32,6 +32,7 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bActive Campaign\b/g, "ActiveCampaign");
+	v = v.replace(/\bActive campaign\b/g,  "ActiveCampaign");
 	v = v.replace(/\bActivecampaign\b/g,  "ActiveCampaign");
 	v = v.replace(/\bactivecampaign\b/g,  "ActiveCampaign");
 	
